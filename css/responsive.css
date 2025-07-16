@@ -1,0 +1,166 @@
+/* Mobile Tablet screens */
+@media screen and (max-width: 991px) {
+    .nav-top {
+        display: flex;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu :hover {
+        color: rgb(255, 0, 0);
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        flex-direction: column;
+        background-color: #fff;
+        align-items: center;
+        gap: 16px;
+        display: none;
+        padding: 16px 0;
+    }
+
+    .nav-link {
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .navbar-wrapper {
+        justify-content: space-between;
+    }
+
+    .banner-wrapper {
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    .banner {
+        padding: 60px 0;
+    }
+
+    .features-box {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .features-left {
+        order: 1;
+    }
+
+    .features-right {
+        order: 2;
+    }
+
+    .offer-section {
+        flex-direction: column;
+    }
+
+    .cta-img {
+        margin: -40px 0 0;
+    }
+
+    .offer-two-section {
+        margin-top: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-desc {
+        font-size: 16px;
+    }
+
+    .banner-desc-gap {
+        margin-bottom: 32px;
+    }
+
+    .download-icon-box {
+        justify-content: space-evenly;
+    }
+
+    .features-section {
+        padding: 70px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-title-desc {
+        font-size: 16px;
+    }
+
+    .features-wrapper {
+        gap: 48px;
+    }
+
+    .features-left,
+    .features-right {
+        width: 100%;
+    }
+
+    .features-right {
+        gap: 24px;
+    }
+
+    .features-box {
+        gap: 0px;
+    }
+
+    .grid-title {
+        font-size: 24px;
+    }
+
+    .grid-desc {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .offer-wrapper {
+        flex-direction: column;
+        padding: 32px 20px;
+    }
+
+    .btn-white {
+        width: 100%;
+    }
+
+    .customer-section {
+        padding: 0px 0px;
+    }
+
+    .customer-grid {
+        gap: 24px;
+        grid-template-columns: 1fr;
+    }
+
+    .customer-gird-column {
+        padding: 24px;
+    }
+
+    .offer-two-section {
+        padding: 100px 0px 6px 0px;
+        margin-top: 60px;
+    }
+
+    .footer {
+        padding: 60px 24px;
+    }
+
+    .footer-wrapper {
+        gap: 32px 23px;
+    }
+
+}
